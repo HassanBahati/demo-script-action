@@ -1,6 +1,10 @@
 name: Demo Script Action
 description: A demo for an action with custom script
 
+branding:
+  icon: "activity"
+  color: green
+  
 runs:
   using: "composite"
   steps:
