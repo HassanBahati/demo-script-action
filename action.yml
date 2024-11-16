@@ -1,7 +1,11 @@
 name: Demo Script Action
 description: A demo for an action with custom script
+
 runs:
   using: "composite"
   steps:
     - name: Test Custom Script
-      run: chmod +x ./custom-script.sh && ./custom-script.sh
+      shell: bash   
+      run: |
+        chmod +x ./custom-script.sh
+        ./custom-script.sh
