@@ -14,5 +14,5 @@ jobs:
 
     steps:
       - name: Demo Script Action
-      uses: HassanBahati/demo-script-action@v1
-            
+        uses: HassanBahati/demo-script-action@v1   
+        
