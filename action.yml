@@ -4,4 +4,4 @@ runs:
   using: "composite"
   steps:
     - name: Test Custom Script
-      run: ./custom-script.sh
+      run: chmod +x ./custom-script.sh && ./custom-script.sh
