@@ -1,0 +1,19 @@
+name: Test Demo Script Action
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Demo Script Action
+        uses: HassanBahati/demo-script-action@v1
+
+ 
