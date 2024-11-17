@@ -4,7 +4,7 @@ description: A demo for an action with custom script
 branding:
   icon: "activity"
   color: green
-  
+
 runs:
   using: "composite"
   steps:
@@ -12,4 +12,4 @@ runs:
       shell: bash   
       run: |
         chmod +x ./custom-script.sh
-        ./custom-script.sh
+        ${{ github.action_path }}/custom-script.sh
